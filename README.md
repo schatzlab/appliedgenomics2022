@@ -17,7 +17,7 @@ We will study the leading computational and quantitative approaches for comparin
 
 ## Course Resources:
 - [Syllabus and Policies](https://github.com/schatzlab/appliedgenomics2022/tree/master/policies)
-- [Piazza Discussion Board](piazza.com/jhu/fall2022/600449600649)
+- [Piazza Discussion Board](https://piazza.com/jhu/fall2022/600449600649)
 - [GradeScope](https://www.gradescope.com/courses/431817) Entry Code: J37JKW
 - [Spring 2021 Course Materials](https://github.com/schatzlab/appliedgenomics2021)
 
