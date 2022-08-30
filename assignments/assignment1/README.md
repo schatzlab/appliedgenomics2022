@@ -11,14 +11,14 @@ As a reminder, any questions about the assignment should be posted to [Piazza](h
 
 Download the chomosome size files for the following genomes (Note these have been preprocessed to only include main chromosomes):
 
-1. [Arabidopsis thaliana (TAIR10)](http://schatz-lab.org/appliedgenomics2020/assignments/assignment1/TAIR10.chrom.sizes) - An important plant model species [[info]](https://en.wikipedia.org/wiki/Arabidopsis_thaliana)
-2. [Tomato (Solanum lycopersicum v4.00)](http://schatz-lab.org/appliedgenomics2020/assignments/assignment1/tomato.chrom.sizes) - One of the most important food crops [[info]](https://en.wikipedia.org/wiki/Tomato)
-3. [E. coli (Escherichia coli K12)](http://schatz-lab.org/appliedgenomics2020/assignments/assignment1/ecoli.chrom.sizes) - One of the most commonly studied bacteria [[info]](https://en.wikipedia.org/wiki/Escherichia_coli)
-4. [Fruit Fly (Drosophila melanogaster, dm6)](http://schatz-lab.org/appliedgenomics2020/assignments/assignment1/dm6.chrom.sizes) - One of the most important model species for genetics [[info]](https://en.wikipedia.org/wiki/Drosophila_melanogaster)
-5. [Human (hg38)](http://schatz-lab.org/appliedgenomics2020/assignments/assignment1/hg38.chrom.sizes) - us :) [[info]](https://en.wikipedia.org/wiki/Homo_sapiens)
-6. [Wheat (Triticum aestivum, IWGSC)](http://schatz-lab.org/appliedgenomics2020/assignments/assignment1/wheat.chrom.sizes) - The food crop which takes up the largest land area [[info]](https://en.wikipedia.org/wiki/Wheat)
-7. [Worm (Caenorhabditis elegans, ce10)](http://schatz-lab.org/appliedgenomics2020/assignments/assignment1/ce10.chrom.sizes) - One of the most important animal model species [[info]](https://en.wikipedia.org/wiki/Caenorhabditis_elegans)
-8. [Yeast (Saccharomyces cerevisiae, sacCer3)](http://schatz-lab.org/appliedgenomics2020/assignments/assignment1/yeast.chrom.sizes) - an important eukaryotic model species, also good for bread and beer [[info]](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)
+1. [Arabidopsis thaliana (TAIR10)](https://schatz-lab.org/appliedgenomics2020/assignments/assignment1/TAIR10.chrom.sizes) - An important plant model species [[info]](https://en.wikipedia.org/wiki/Arabidopsis_thaliana)
+2. [Tomato (Solanum lycopersicum v4.00)](https://schatz-lab.org/appliedgenomics2020/assignments/assignment1/tomato.chrom.sizes) - One of the most important food crops [[info]](https://en.wikipedia.org/wiki/Tomato)
+3. [E. coli (Escherichia coli K12)](https://schatz-lab.org/appliedgenomics2020/assignments/assignment1/ecoli.chrom.sizes) - One of the most commonly studied bacteria [[info]](https://en.wikipedia.org/wiki/Escherichia_coli)
+4. [Fruit Fly (Drosophila melanogaster, dm6)](https://schatz-lab.org/appliedgenomics2020/assignments/assignment1/dm6.chrom.sizes) - One of the most important model species for genetics [[info]](https://en.wikipedia.org/wiki/Drosophila_melanogaster)
+5. [Human (hg38)](https://schatz-lab.org/appliedgenomics2020/assignments/assignment1/hg38.chrom.sizes) - us :) [[info]](https://en.wikipedia.org/wiki/Homo_sapiens)
+6. [Wheat (Triticum aestivum, IWGSC)](https://schatz-lab.org/appliedgenomics2020/assignments/assignment1/wheat.chrom.sizes) - The food crop which takes up the largest land area [[info]](https://en.wikipedia.org/wiki/Wheat)
+7. [Worm (Caenorhabditis elegans, ce10)](https://schatz-lab.org/appliedgenomics2020/assignments/assignment1/ce10.chrom.sizes) - One of the most important animal model species [[info]](https://en.wikipedia.org/wiki/Caenorhabditis_elegans)
+8. [Yeast (Saccharomyces cerevisiae, sacCer3)](https://schatz-lab.org/appliedgenomics2020/assignments/assignment1/yeast.chrom.sizes) - an important eukaryotic model species, also good for bread and beer [[info]](https://en.wikipedia.org/wiki/Saccharomyces_cerevisiae)
 
 Using these files, make a table with the following information per species:
 
@@ -47,7 +47,7 @@ Using these files, make a table with the following information per species:
 
 ### Question 3: Sequence content [20 pts]
 
-Download the human chromosome 22 from here: [http://schatz-lab.org/appliedgenomics2022/assignments/assignment1/chr22.fa.gz](http://schatz-lab.org/appliedgenomics2022/assignments/assignment1/chr22.fa.gz)
+Download the human chromosome 22 from here: [https://schatz-lab.org/appliedgenomics2022/assignments/assignment1/chr22.fa.gz](https://schatz-lab.org/appliedgenomics2022/assignments/assignment1/chr22.fa.gz)
 
 - Question 3.1. How many As, Cs, Gs, Ts and Ns are found in the entire chromosome?
 
