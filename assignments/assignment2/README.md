@@ -17,7 +17,8 @@ For this assignment, we recommend you install and run the tools using [Docker](h
 
 #### Question 1. Coverage Analysis [20 pts]
 
-Download the reads and reference genome from: https://github.com/schatzlab/appliedgenomics2022/raw/master/assignments/assignment2/asm.tgz
+Download the reads and reference genome from: [https://github.com/schatzlab/appliedgenomics2022/blob/main/assignments/assignment2/asm.tgz?raw=true](https://github.com/schatzlab/appliedgenomics2022/blob/main/assignments/assignment2/asm.tgz?raw=true)
+
 
 Note I have provided both paired-end and mate-pairs reads (see included README for details). 
 Make sure to look at all of the reads for the coverage analysis and kmer analysis, as well as in the assembly.
