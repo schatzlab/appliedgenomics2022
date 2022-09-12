@@ -4,14 +4,11 @@ Due Date: Monday, September 19, 2022 @ 11:59pm <br>
 
 ### Assignment Overview
 
-In this assignment, you are given a set of unassembled reads from a mysterious pathogen that contains a 
-secret message encoded someplace in the genome. The secret message will be recognizable as a novel insertion 
-of sequence not found in the reference. Your task is to assess the quality of the reads, assemble the genome, 
-identify, and decode the secret message. If all goes well the secret message should decode into a recognizable 
+In this assignment, you are given a set of unassembled reads from a mysterious pathogen that contains a secret message encoded someplace in the genome. The secret message will be recognizable as a novel insertion of sequence not found in the reference. Your task is to assess the quality of the reads, assemble the genome, identify, and decode the secret message. If all goes well the secret message should decode into a recognizable 
 english text, otherwise doublecheck your coordinates and try again. As a reminder, any questions about the assignment 
 should be posted to [Piazza](https://piazza.com/class/l7dg3c82ftw1d/).
 
-For this assignment, we recommend you install and run the tools using [Docker](https://www.docker.com/). This is a powerful containerization tool to make software easier to distribute. This will become even more important later in the semester when you are running your assignments in the cloud. For this assignment, you can use this docker instance that has these tools preinstalled: 
+For this assignment, we recommend you install and run the tools using [bioconda](https://www.nature.com/articles/s41592-018-0046-7). There are some tips below in the Resources section. Alternatively, you can try running the tools using [Docker](https://www.docker.com/). Docker is a powerful containerization tool to make software easier to distribute. This will become even more important later in the semester when you are running your assignments in the cloud. For this assignment, you can use this docker instance that has these tools preinstalled. ***Note: this does not work on new Apple M1 chips :(:*** 
 [https://github.com/mschatz/wga-essentials](https://github.com/mschatz/wga-essentials)
 
 
@@ -19,9 +16,7 @@ For this assignment, we recommend you install and run the tools using [Docker](h
 
 Download the reads and reference genome from: [https://github.com/schatzlab/appliedgenomics2022/blob/main/assignments/assignment2/asm.tgz?raw=true](https://github.com/schatzlab/appliedgenomics2022/blob/main/assignments/assignment2/asm.tgz?raw=true)
 
-
-Note I have provided both paired-end and mate-pairs reads (see included README for details). 
-Make sure to look at all of the reads for the coverage analysis and kmer analysis, as well as in the assembly.
+Note we have provided both paired-end and mate-pairs reads (see included README for details). Make sure to look at all of the reads for the coverage analysis and kmer analysis, as well as in the assembly.
 
 - Question 1a. How long is the reference genome? [Hint: Try `samtools faidx`]
 - Question 1b. How many reads are provided and how long are they? Make sure to measure each file separately [Hint: Try `FastQC`]
@@ -74,12 +69,27 @@ If you submit after this time, you will use your late days. Remember, you are on
 
 #### [Bioconda](https://bioconda.github.io/) - Package manager for bioinformatics software
 
-On linux or mac I *highly* recommend that you use bioconda to install the packages rather than installing from source. Once bioconda is configured,
-all of the needed tools can be installed using:
+On linux or mac I *highly* recommend that you use bioconda to install the packages rather than installing from source. 
+
+The easiest way to install conda is with [Miniconda](https://docs.conda.io/en/latest/miniconda.html). For M1 macs, I recommend using the x86 installation in emulation mode since  M1/arm support is still limited. I also recommend using [mamba](https://github.com/mamba-org/mamba) instead of the default `conda` command for installing new packages:
+
+```
+## Replace Linux-x86_64 with the version you downloaded!
+$ chmod +x Miniconda2-latest-Linux-x86_64.sh
+$ ./Miniconda2-latest-Linux-x86_64.sh
+
+## After conda is installed add some default channels
+$ conda config --add channels bioconda
+$ conda config --add channels conda-forge
+$ conda install -c conda-forge mamba
+```
+
+Once bioconda is configured, all of the tools needed for this assignment can be installed using:
 
 ```
 $ conda install fastqc jellyfish spades mummer samtools
 ```
+
 
 #### [FastQC](http://www.bioinformatics.babraham.ac.uk/projects/fastqc/) - Raw read quality assessment
 
@@ -92,7 +102,7 @@ If you have problems, make sure java is installed (`sudo apt-get install default
 
 #### [Jellyfish](http://www.genome.umd.edu/jellyfish.html) - Fast Kmer Counting
 
-Note Jellyfish requires a 64-bit operating system. Download the package and compile it like this:
+When counting kmers, make sure to count "canonical" kmers on both strands (-C):
 
 ```
 $ jellyfish count -m 21 -C -s 1000000 /path/to/reads*.fq
@@ -111,6 +121,13 @@ Normally spades would try several values of k and merge the results together, bu
 $ spades.py --pe1-1 frag180.1.fq --pe1-2 frag180.2.fq --mp1-1 jump2k.1.fq --mp1-2 jump2k.2.fq -o asm -t 4 -k 31
 ```
 
+
+***Note: On mac you may need to run spades like this with the -m flag:***
+```
+$ spades.py -m 1024 --pe1-1 frag180.1.fq --pe1-2 frag180.2.fq --mp1-1 jump2k.1.fq --mp1-2 jump2k.2.fq -o asm -t 4 -k 31
+```
+
+
 #### [MUMmer](http://mummer.sourceforge.net/) - Whole Genome Alignment
 
 ```
@@ -121,16 +138,18 @@ $ show-coords out.delta
 
 **WARNING: nucmer and related tools do not like it if/when you have spaces or special characters ('@') in the path to the binaries***
 
+If you have problems with mummer not running perl, reinstall it like this:
+
+```
+$ mamba install mummer=3.23=h6de7cb9_11
+```
+
+
 #### [SAMTools](http://www.htslib.org/) - Extract part of a genome sequence using 'samtools faidx' (this will extract from contig_id bases 1234 through 5678)
 
 ```
 $ ./samtools faidx /path/to/genome.fa contig_id:1234-5678
 ```
-
-The solutions to the above questions should be submitted as a single PDF document that includes your name, email address, and 
-all relevant figures (as needed). Make sure to clearly label each of the subproblems and give the exact commands and/or code snippets you used for solving the question. Submit your solutions by uploading the PDF to [GradeScope](https://www.gradescope.com/courses/431817), and remember to select where in your submission each question/subquestion is. The Entry Code is: J37JKW. 
-
-If you submit after this time, you will start to use up your late days. Remember, you are only allowed 96 hours (4 days) for the entire semester!
 
 
 
