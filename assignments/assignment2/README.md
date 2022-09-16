@@ -30,7 +30,7 @@ otherwise your analysis will not correctly account for the fact that your reads 
 
 - Question 2a. How many kmers occur exactly 50 times? [Hint: try `jellyfish histo`]
 - Question 2b. What are the top 10 most frequently occurring kmers [Hint: try `jellyfish dump` along with `sort` and `head`]
-- Question 2c. What is the estimated genome size based on the kmer frequencies? [Hint: upload the jellyfish histogram to [GenomeScope](http://genomescope.org) and report the min "Genome Haploid Length" in the "Results" section]
+- Question 2c. What is the estimated genome size based on the kmer frequencies? [Hint: upload the jellyfish histogram to [GenomeScope2](http://qb.cshl.edu/genomescope/genomescope2.0/) and report the min "Genome Haploid Length" in the "Results" section]
 - Question 2d. How well does the GenomeScope genome size estimate compare to the reference genome? [Hint: In a sentence or two]
 
 #### Question 3. De novo assembly [20 pts]
