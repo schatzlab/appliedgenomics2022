@@ -13,7 +13,7 @@ The bioinformatics tools you will need for the assignment (bowtie, samtools, etc
 As a reminder, any questions about the assignment should be posted to [Piazza](https://piazza.com/class/l7dg3c82ftw1d/).
 
 ### Question 1. de Bruijn Graph construction [10 pts]
-- Q1a. Draw (by hand or by code) the de Bruijn graph for the following reads using k=3 (assume all reads are from the forward strand, no sequencing errors, complete coverage of the genome). You may find [graphviz](https://graphviz.org/) to be helpful.
+- Q1a. Draw (by hand or by code) the de Bruijn graph for the following reads using k=3 (assume all reads are from the forward strand, no sequencing errors, complete coverage of the genome). You may find [graphviz](https://graphviz.org/) to be helpful (install with `conda install graphviz`).
 
 ```
 ATTCA
@@ -31,7 +31,7 @@ TTCTT
 TTGAT
 ```
 
-- Q1b. Assume that the maximum number of occurrences of any 3-mer in the actual genome is 4 using the k-mers from Q2a. Write one possible genome sequence
+- Q1b. Assume that the maximum number of occurrences of any 3-mer in the actual genome is 4 using the k-mers from Q1a. Write one possible genome sequence
 
 
 - Q1c. What would it take to fully resolve the genome? [In a few sentences]
@@ -65,9 +65,9 @@ The goal of this question is to develop a WDL that will align pairs of read file
 
 - 4a. Write a WDL to extract kmers of a specific length from a range of a given genome, and then align them back to a reference genome using bowtie2.  Please submit the code for this but you do not need to include screenshots.
 
-- 4b. Using your WDL with k = 25, extract every k-mer from positions 1 to 5,000,000 on GRCh38 chromosome 22, and align them back to chromosome 22 (the entire chromosome) using bowtie2. How many 25-mers are mapped back to the correct position (the place they were extracted from) with mapq >= 20? How many are mapped with mapq >= 20, but to an incorrect position?
+- 4b. Using your WDL with k = 25, extract every k-mer from positions 20,000,000 to 25,000,000 on GRCh38 chromosome 22, and align them back to chromosome 22 (the entire chromosome) using bowtie2. How many 25-mers are mapped back to the correct position (the place they were extracted from) with mapq >= 20? How many are mapped with mapq >= 20, but to an incorrect position? You can download chr22 from assignment 1 here: [https://schatz-lab.org/appliedgenomics2022/assignments/assignment1/chr22.fa.gz](https://schatz-lab.org/appliedgenomics2022/assignments/assignment1/chr22.fa.gz
 
-- 4c. We consider 25-mers that are mapped back to their correct position in the genome with mapq >= 20 to be uniquely mappable. For each position in 1-5,000,000 on chromosome 22, count how many uniquely mappable k-mers are mapped to it. Make a histogram of the number of positions in chromosome 22 with a given number of uniquely mappable k-mers overlapping them. Use k = 25, and the 25-mers you generated in part a. [Hint: How many 25-mers can uniquely map to any one base in chromosome 22?]
+- 4c. We consider 25-mers that are mapped back to their correct position in the genome with mapq >= 20 to be uniquely mappable. For each position in 20,000,000-25,000,000 on chromosome 22, count how many uniquely mappable k-mers are mapped to it. Make a histogram of the number of positions in chromosome 22 with a given number of uniquely mappable k-mers overlapping them. Use k = 25, and the 25-mers you generated in part a. [Hint: How many 25-mers can uniquely map to any one base in chromosome 22?]
 
 - 4d. Repeat the previous two questions for k = 50 and 100, and discuss (in a couple of sentences) the effect of k on how many k-mers are uniquely mappable and on how many uniquely mappable k-mers overlap each position in the genome.
 
