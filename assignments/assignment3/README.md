@@ -56,9 +56,9 @@ The goal of this question is to develop a WDL that will align pairs of read file
 
  Please submit the code for this but you do not need to include screenshots.
  
-- Question 3c. Using the WDL from b, plot the insert size distribution (tag: IS) and the coverage distribution (tag: COV) for the paired end reads (frag180.X.fq)
+- Question 3c. Using the WDL from b, plot the insert size distribution (tag: IS) and the coverage distribution (tag: COV) for the paired end reads (frag180.X.fq). Please include the code for plotting (this part does not need to be in the WDL)
 
-- Question 3d. Using the WDL from b, plot the insert size distribution (tag: IS) and the coverage distribution (tag: COV) for the paired end reads (jump2k.X.fq)
+- Question 3d. Using the WDL from b, plot the insert size distribution (tag: IS) and the coverage distribution (tag: COV) for the paired end reads (jump2k.X.fq). Please include the code for plotting (this part does not need to be in the WDL)
 
 
 ### Question 4. Mappability Analysis [10 pts]
