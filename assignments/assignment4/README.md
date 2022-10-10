@@ -6,7 +6,7 @@ Due Date: Monday, Oct 17, 2022 @ 11:59pm <br>
 
 In this assignment you will consider the fundamental properties for variant calling, and get some experience with small variant analysis.
 
-In this assignment you will explore WDLs as a workflow language to orchestrate a variety of read mapping tasks. You can execute your WDLs using [miniwdl](https://github.com/chanzuckerberg/miniwdl) after running `pip install miniwdl`. You may also find [learn-wdl](https://github.com/openwdl/learn-wdl) to be very helpful.
+In this assignment you will explore WDLs as a workflow language to orchestrate a variety of read mapping tasks. You can execute your WDLs using [miniwdl](https://github.com/chanzuckerberg/miniwdl) after running `pip install miniwdl`. You may also find [learn-wdl](https://github.com/openwdl/learn-wdl) and [wdl.SPEC](https://github.com/openwdl/wdl/blob/main/versions/1.0/SPEC.md) to be very helpful.
 
 If you are using a Mac, make sure to disable [gRPC FUSE for file sharing](https://github.com/chanzuckerberg/miniwdl/issues/145). There is a currently a very weird bug in Docker desktop 4.12.0 (docker engine 20.10.17) on Apple M1 where if you try to disable "Use gRPC FUSE for file sharing" via the GUI it will turn itself back on when you try to activate it. Docker is aware of the problem and are working on a fix. In the meantime there is a workaround available: [https://github.com/docker/for-mac/issues/6467](https://github.com/docker/for-mac/issues/6467)
 
