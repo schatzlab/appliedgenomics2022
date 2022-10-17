@@ -82,7 +82,7 @@ Download the annotation of regulatory variants from here:<br>
 
 - 4h. What type of annotated regulatory region has the most variants? [Hint: `bedtools`]
 
-- 4i. Is this a statistically significant number of variants (P-value < 0.05)? [Hint: If you don't want to calculate this analytically, you can do an experiment. Try simulating the same number of variants as the original file 100 times, and see how many fall into this regulatory type. If at least this many variants fall into this feature type more than 5% of the trials, this is not statistically significant]
+- 4i. Is the number of variants in the regulatory type with the most variants a statistically significant number of variants (P-value < 0.05)? [Hint: If you don't want to calculate this analytically, you can do an experiment. Try simulating the same number of variants as the original file 100 times, and see how many fall into this regulatory type. If at least this many variants fall into this feature type more than 5% of the trials, this is not statistically significant]
 
 
 ### Packaging
