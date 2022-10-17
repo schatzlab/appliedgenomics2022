@@ -34,7 +34,7 @@ As a reminder, any questions about the assignment should be posted to [Piazza](h
 
 Download the read set from here: [https://github.com/schatzlab/appliedgenomics2022/tree/main/assignments/assignment4/input_files](https://github.com/schatzlab/appliedgenomics2022/tree/main/assignments/assignment4/input_files)
 
-For this question, you may find this tutorial helpful: [http://clavius.bc.edu/~erik/CSHL-advanced-sequencing/freebayes-tutorial.html](http://clavius.bc.edu/~erik/CSHL-advanced-sequencing/freebayes-tutorial.html)
+For this question, you may find this tutorial helpful: [https://hbctraining.github.io/In-depth-NGS-Data-Analysis-Course/sessionVI/lessons/02_variant-calling.html](https://hbctraining.github.io/In-depth-NGS-Data-Analysis-Course/sessionVI/lessons/02_variant-calling.html)
 
 To answer the following questions, use a WDL file to run the required tools. You should use one task per computational question. Please include your WDL file in your submission. You can use your local computer or AnVIL to run the WDL.
 
