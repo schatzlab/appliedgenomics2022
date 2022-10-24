@@ -4,7 +4,7 @@ Due Date: Monday October 31 2022 @ 11:59pm <br>
 
 ### Assignment Overview
 
-In this assignment you will write a simple BWT encoder and decoder, and explore a couple of aspects of RNA-seq (with a small introduction to clustering). For this assignment, you will have to generate some visualizations - we recommend R or Python, but use a language you are comfortable with! 
+In this assignment you will explore a couple of aspects of RNA-seq (with a small introduction to clustering). For this assignment, you will have to generate some visualizations - we recommend R or Python, but use a language you are comfortable with! 
 
  **Make sure to show your work/code in your writeup!**
 
