@@ -5,10 +5,33 @@ Presentations will be a total of 15 minutes: 12 minutes for the presentation, fo
 
 ## Schedule of Presentations
 
-Day     | Time      | Team Name                | Students                                 | Title 
---------|-----------|--------------------------|------------------------------------------|---------------------------------------------------------------------
-<br>
-<br>
+
+| Slot | Day       | Date   | Team                            | Students                                 | Title                                                                                                                                                                       |
+| ---- | --------- | ------ | ------------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | Monday    | 28-Nov | RNA Prophet                     | Sen Wei, Lelin Zhong                     | RNA secondary structure prediction                                                                                                                                          |
+| 2    | Monday    | 28-Nov | Team Williams                   | Carter Williams                          |  Longevity Variant Clock                                                                                                                                                    |
+| 3    | Monday    | 28-Nov | Team AI                         | Yiwei Ai                                 | A complete reference genome further improves analysis of transcriptome variation in human tissues revealed by long-read sequencing                                          |
+| 4    | Monday    | 28-Nov | AJM                             | Angela Mak, Joanna Bi, Moneera Alsuwailm | Using Population BWT to analyze Canis Lupis Familiaris genomes.                                                                                                             |
+| 5    | Monday    | 28-Nov | Team Sweeten                    | Alex Sweeten                             | Are newly found genomic regions implicated in disease?                                                                                                                      |
+| | | | | | |
+| 1    | Wednesday | 30-Nov | TJ Team                         | Jingzhou Hao, Tiantian Shang             | Improving RNA Virus Genome Open Reading Frame calling with Machine Learning Methods                                                                                         |
+| 2    | Wednesday | 30-Nov | AIRRsembly                      | Mao-Jan Lin                              | Surveying the Effect of Immunoglobulin (IG) Gene Rearrangement in Human Genome Assemblies from Lymphoblastoid Cell Lines (LCLs)                                             |
+| 3    | Wednesday | 30-Nov | Tinkers                         | Naga Sai Kavya Vaddadi, Sanmati Dugad    | Assembly workflow automation using real sequencing data                                                                                                                     |
+| 4    | Wednesday | 30-Nov | Team Prinster                   | Drew Prinster                            | reliable uncertainty quantification                                                                                                                                         |
+| 5    | Wednesday | 30-Nov | Species Present in Food Samples | Jamie Huang, Abby Liu                    | Apply metagenomics approaches to identifying species present in food samples or correlated with other diseases                                                              |
+| | | | | | |
+| 1    | Monday    | 5-Dec  | Contemporary Expressionists     | Quinn Hauck, Jakob Heinz, Mingyuan Li    | Analysis of Poly(A) Length and Differential Expression between Cancerous and Healthy Cell Lines Using Long Read Transcriptome Sequencing                                    |
+| 2    | Monday    | 5-Dec  | very much called for            | Vikram Shivakumar                        | Variant calling for single molecules using Nanopore electrical signal                                                                                                       |
+| 3    | Monday    | 5-Dec  | NXYZ                            | Ziqing Ye, Yunxuan Xu                    | Human lncRNA classification from sequence composition                                                                                                                       |
+| 4    | Monday    | 5-Dec  | Unity                           | Shivang Sharma                           | Data integration strategies and quality control guidelines for successful prediction of activated signaling mechanisms from publicly available bulk RNA sequencing datasets |
+| 5    | Monday    | 5-Dec  | Team Olaya                      | Maggie Olaya                             | Examining Genotypes for Ethnic Origin                                                                                                                                       |
+| | | | | | |
+| 1    | Wednesday | 7-Dec  | Phague                          | Stephen Hwang                            | Classification of phage lifestyle                                                                                                                                           |
+| 2    | Wednesday | 7-Dec  | Genebeans                       | Celine Hoh, Natalie Wang                 | Nutrigenomic Visualization Tool on 23andMe Raw Genotyping Data                                                                                                              |
+| 3    | Wednesday | 7-Dec  | The Cancer Genomics Team        | Alma Plaza-Rodriguez                     | Using AI/ML approaches for variant calling in cancer genomics                                                                                                               |
+| 4    | Wednesday | 7-Dec  | CRISP-Seq                       | Miso Na, Jimin Kang, Iryna Chelepis      | Elegant circumvention of the conventional sequencing problems                                                                                                               |
+| 5    | Wednesday | 7-Dec  | Team Valera                     | Oliver Antonio Valera                    | MACHINE LEARNING DOG BREED CLASSIFIER                                                                                                                                       |
+| 6    | Wednesday | 7-Dec  | Emerson!                        | Emerson Sullivan                         | Prediction of Rare Selenoproteins Using Selective Functional Genomic Techniques                                                                                             |
 
 ## Recommended outline for your talk (~1 minute per slide):
 
