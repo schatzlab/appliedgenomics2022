@@ -8,10 +8,10 @@ Presentations will be a total of 15 minutes: 12 minutes for the presentation, fo
 
 | Slot | Day       | Date   | Team                            | Students                                 | Title                                                                                                                                                                       |
 | ---- | --------- | ------ | ------------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | Monday    | 28-Nov | RNA Prophet                     | Sen Wei, Lelin Zhong                     | RNA secondary structure prediction                                                                                                                                          |
-| 2    | Monday    | 28-Nov | Team Williams                   | Carter Williams                          | Longevity Variant Clock                                                                                                                                                    |
-| 3    | Monday    | 28-Nov | AJM                             | Angela Mak, Joanna Bi, Moneera Alsuwailm | Using Population BWT to analyze Canis Lupis Familiaris genomes.                                                                                                             |
-| 4    | Monday    | 28-Nov | Little WDL                   | Alex Sweeten                             | Eye Spy: Examining the role newly found genes have in inhereted retinal degeneration disease.                                                                                                                      |
+| 1    | Monday    | 28-Nov | Team Williams                   | Carter Williams                          | Longevity Variant Clock                                                                                                                                                    |
+| 2    | Monday    | 28-Nov | AJM                             | Angela Mak, Joanna Bi, Moneera Alsuwailm | Using Population BWT to analyze Canis Lupis Familiaris genomes.                                                                                                             |
+| 3    | Monday    | 28-Nov | Little WDL                   | Alex Sweeten                             | Eye Spy: Examining the role newly found genes have in inhereted retinal degeneration disease.                                                                                                                      |
+| 4    | Monday    | 28-Nov | **Open** | | |
 | 5    | Monday    | 28-Nov | **Open** | | |
 | | | | | | |
 | 1    | Wednesday | 30-Nov | TJ Team                         | Jingzhou Hao, Tiantian Shang             | Improving RNA Virus Genome Open Reading Frame calling with Machine Learning Methods                                                                                         |
@@ -33,6 +33,8 @@ Presentations will be a total of 15 minutes: 12 minutes for the presentation, fo
 | 4    | Wednesday | 7-Dec  | CRISP-Seq                       | Miso Na, Jimin Kang, Iryna Chelepis      | Elegant circumvention of the conventional sequencing problems                                                                                                               |
 | 5    | Wednesday | 7-Dec  | Team Valera                     | Oliver Antonio Valera                    | MACHINE LEARNING DOG BREED CLASSIFIER                                                                                                                                       |
 | 6    | Wednesday | 7-Dec  | Emerson!                        | Emerson Sullivan                         | Prediction of Rare Selenoproteins Using Selective Functional Genomic Techniques                                                                                             |
+| 7    | Wednesday | 7-Dec | RNA Prophet                     | Sen Wei, Lelin Zhong                     | RNA secondary structure prediction                                                                                                                                          |
+
 
 ## Recommended outline for your talk (~1 minute per slide):
 
