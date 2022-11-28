@@ -8,16 +8,16 @@ Presentations will be a total of 15 minutes: 12 minutes for the presentation, fo
 
 | Slot | Day       | Date   | Team                            | Students                                 | Title                                                                                                                                                                       |
 | ---- | --------- | ------ | ------------------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | Monday    | 28-Nov | Team Williams                   | Carter Williams                          | Longevity Variant Clock                                                                                                                                                    |
-| 2    | Monday    | 28-Nov | AJM                             | Angela Mak, Joanna Bi, Moneera Alsuwailm | Using Population BWT to analyze Canis Lupis Familiaris genomes.                                                                                                             |
-| 3    | Monday    | 28-Nov | Little WDL                   | Alex Sweeten                             | Eye Spy: Examining the role newly found genes have in inhereted retinal degeneration disease.                                                                                                                      |
+| 1    | Monday    | 28-Nov | AJM                             | Angela Mak, Joanna Bi, Moneera Alsuwailm | Using Population BWT to analyze Canis Lupis Familiaris genomes.                                                                                                             |
+| 2    | Monday    | 28-Nov | Little WDL                   | Alex Sweeten                             | Eye Spy: Examining the role newly found genes have in inhereted retinal degeneration disease.                                                                                                                      |
+| 3    | Monday    | 28-Nov | **Open** | | |
 | 4    | Monday    | 28-Nov | **Open** | | |
 | 5    | Monday    | 28-Nov | **Open** | | |
 | | | | | | |
 | 1    | Wednesday | 30-Nov | TJ Team                         | Jingzhou Hao, Tiantian Shang             | Improving RNA Virus Genome Open Reading Frame calling with Machine Learning Methods                                                                                         |
 | 2    | Wednesday | 30-Nov | AIRRsembly                      | Mao-Jan Lin                              | Surveying the Effect of Immunoglobulin (IG) Gene Rearrangement in Human Genome Assemblies from Lymphoblastoid Cell Lines (LCLs)                                             |
 | 3    | Wednesday | 30-Nov | Tinkers                         | Naga Sai Kavya Vaddadi, Sanmati Dugad    | Assembly workflow automation using real sequencing data                                                                                                                     |
-| 4    | Wednesday | 30-Nov | **OPEN**
+| 4    | Wednesday | 30-Nov | Team Williams                   | Carter Williams                          | Longevity Variant Clock                                                                                                                                                    |
 | 5    | Wednesday | 30-Nov | **OPEN**
 | | | | | | |
 | 1    | Monday    | 5-Dec  | Contemporary Expressionists     | Quinn Hauck, Jakob Heinz, Mingyuan Li    | Analysis of Poly(A) Length and Differential Expression between Cancerous and Healthy Cell Lines Using Long Read Transcriptome Sequencing                                    |
