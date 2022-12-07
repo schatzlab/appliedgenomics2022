@@ -21,7 +21,7 @@ Presentations will be a total of 15 minutes: 12 minutes for the presentation, fo
 | 3    | Monday    | 5-Dec  | Team Prinster                   | Drew Prinster                            | reliable uncertainty quantification   |
 | 4    | Monday    | 5-Dec  | Team Olaya                      | Maggie Olaya                             | Examining Genotypes for Ethnic Origin                                                                                                                                      |
 | 5    | Monday | 5-Dec | Species Present in Food Samples | Jamie Huang, Abby Liu                    | Apply metagenomics approaches to identifying species present in food samples or correlated with other diseases                                                              
-| 6    | Wednesday | 30-Nov | Tinkers                         | Naga Sai Kavya Vaddadi, Sanmati Dugad    | Assembly workflow automation using real sequencing data                                                                                                                     |
+| 6    | Monday | 5-Dec | Tinkers                         | Naga Sai Kavya Vaddadi, Sanmati Dugad    | Assembly workflow automation using real sequencing data                                                                                                                     |
 ||
 | | | | | | |
 | 1    | Wednesday | 7-Dec  | Phague                          | Stephen Hwang                            | Classification of phage lifestyle                                                                                                                                           |
