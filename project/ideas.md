@@ -127,3 +127,24 @@ If any of these are not available, your project will not be successful, especial
 ## Or your own idea! 
 
 This should be more than you are already doing for your PhD work, but can be a novel twist to a dataset/idea you are already using. If you have a research idea but not the right data, let me know and I'll help you find some.
+
+
+
+## Data Resources
+
+Pointers to open access data sets to help get you started!
+
+### Human
+- 1000 Genomes: open access DNA sequencing reads for 3202 diverse human genomes: https://pubmed.ncbi.nlm.nih.gov/36055201/
+- Simons Genome Diversity Project (SGDP): open access DNA sequencing reads from 279 diverse human genomes: https://www.nature.com/articles/nature18964
+- Personal Genome Project (PGP): self reported 23-and-me reports (DNA data along with other phenotype data): https://www.personalgenomes.org/
+- T2T Genome: https://github.com/marbl/CHM13
+- Genome in a bottle (GIAB): diverse sequecning data from several trios: https://github.com/genome-in-a-bottle
+- Human Pangenome Reference Consortium (HPRC): long read data from up to 350 individuals: https://humanpangenome.org/data-and-resources/
+- Encode: Functional genomics data of all types: https://www.encodeproject.org/
+- GTEx: variants and expression data from ~1000 people in dozens of tissues (raw data is protected, but expression levels are open access): https://gtexportal.org/home/
+- ICGC Data portal: somatic variants (open) and germline variants (protect) in many patients: https://dcc.icgc.org/
+- SG-NEx: long read RNAseq data from many samples: https://github.com/GoekeLab/sg-nex-data
+
+### Dog
+- Darwin's Ark: VCF file from >600 varieties of dogs: https://www.science.org/doi/10.1126/science.abk0639; https://data.broadinstitute.org/DogData/
